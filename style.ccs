@@ -1,3 +1,31 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+  }
+}
+
+main {
+  background-color: black;
+  min-height: 500px;
+}
+
+footer {
+  min-height: 200px;
+  background-color: yellow;
+}
 b {
   color: red;
 }
@@ -5,4 +33,11 @@ b {
 .auto1:hover {
   transform: scale(1.2);
   transition: all 0.2s ease-in;
+}
+b {
+  color: red;
+}
+
+h1 {
+  color: red;
 }
